@@ -6,6 +6,7 @@
    1. [Commands](#commands)
 3. [TargetPussy](#targetpussy)
    1. [Your Tests](#your-tests)
+4. [Notes](#notes)
 
 
 ----
@@ -35,3 +36,7 @@ These will be a list of targetPanties
 ## Your Tests
 
 1. All your tests will be in subdirectories that start with `m*` * = Number
+
+# Notes 
+
+1. BS4 designed for parsing HTML and XML , and for dynamic JS generated content. Recommendation is to use other utilities 
