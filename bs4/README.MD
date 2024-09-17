@@ -4,6 +4,8 @@
 1. [Main Links](#main-links)
 2. [BS4 Work](#bs4-work)
    1. [Commands](#commands)
+3. [TargetPussy](#targetpussy)
+   1. [Your Tests](#your-tests)
 
 
 ----
@@ -26,3 +28,10 @@ Installation with conda
 conda install  beautifulsoup4
 ```
 
+# TargetPussy
+
+These will be a list of targetPanties
+
+## Your Tests
+
+1. All your tests will be in subdirectories that start with `m*` * = Number
