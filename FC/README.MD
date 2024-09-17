@@ -31,5 +31,15 @@ conda install firecrawl-py
 - Nice if you use pip , still it is available 
   
  # Usage 
+
+ Main Candy 
+ https://immunefi.com/
  
  ## Map a Website 
+
+ ```py 
+# Map a website:
+map_result = app.map_url('https://firecrawl.dev')
+print(map_result)
+
+ ```
