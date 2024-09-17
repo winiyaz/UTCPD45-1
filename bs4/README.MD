@@ -20,3 +20,9 @@ BeautifulSoup related work in this folder
 
 ## Commands 
 
+Installation with conda 
+
+```sh
+conda install  beautifulsoup4
+```
+
