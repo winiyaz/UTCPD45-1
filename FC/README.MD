@@ -2,6 +2,8 @@
 1. [FC](#fc)
 2. [Main Docs](#main-docs)
    1. [Install](#install)
+3. [Usage](#usage)
+   1. [Map a Website](#map-a-website)
 
 ----
 
@@ -25,3 +27,9 @@ Conda installation
 ```sh 
 conda install firecrawl-py
 ```
+- note conda not available will have to do it with pip. That means install wih venv
+- Nice if you use pip , still it is available 
+  
+ # Usage 
+ 
+ ## Map a Website 
