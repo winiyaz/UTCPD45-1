@@ -10,4 +10,6 @@
 Trying to scrape https://immunefi.com/bug-bounty/
 - this is generated using nextjs 
 - So have to use a dynamic method 
-- 
+- Note dynamic method is problematic 
+- So lets try another way 
+
